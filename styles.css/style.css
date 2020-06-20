@@ -1,0 +1,1277 @@
+body{
+    height: 10000px;
+}
+
+
+.home{
+    background-color: #192031;
+    height: 800px;
+    position: relative;
+}
+
+.navbar-nav a{
+    transition: 0.4s !important;
+}
+
+.navbar-nav .text-white:hover{
+    color: #01c9f5 !important;
+    
+}
+
+.navbar-nav .active{
+    color: #01c9f5 !important;
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+ .btn{
+    border-radius: 25px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    transition: .2s all ease-in-out !important;
+    
+    
+
+}
+
+.dropdown-menu{
+   left: 775px !important;
+   z-index: 10 !important;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+
+.text-capitalize {
+    text-transform: capitalize!important;
+    float: right;
+}
+
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    align-items: flex-end;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+   .navbar .btn-non {
+       display: none;
+   }
+   
+   
+}
+
+
+.home-info{
+    padding: 120px 0;
+    position: relative;
+}
+
+.home-info span{
+    color: #01C9F5;
+    font-size: 20px;
+}
+
+
+.home-info h1{
+    font-size: 50px;
+}
+
+
+.home-info p{
+    font-size: 22px;
+}
+
+.bg-img{
+    position: absolute;
+    display: block;
+    left: 280px;
+    bottom: -110px;
+}
+
+.bg-img img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.Choose-us{
+    padding-top: 250px;
+}
+
+
+.Choose-us span{
+    font-size: 20px;
+}
+
+.Choose-us p{
+   font-size: 20px;
+   font-family: serif;
+}
+
+.Choose-us .btn{
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+
+
+
+.about-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5%;
+}
+
+.about-item span{
+    font-size: 22px;
+    color:  #01c9f5;
+}
+
+
+.about-item h2{
+    font-size: 30px;
+}
+
+.about-item p{
+    font-size: 19px;
+}
+
+
+.about-item ul li{
+     padding: 5px 0;
+     font-size: 18px;
+}
+
+
+.about-item p a{
+    color: black;
+    border-bottom: 2px solid rgba(0, 102, 255, 0.4);
+    text-decoration: none;
+    padding: 3px;
+    transition: all 0.6s;
+    
+}
+
+.about-item p a:hover{
+    color: #01c9f5;
+    border-bottom: 2px  solid #01c9f5;
+}
+
+.mission-section {
+    margin-top: 150px;
+}
+
+.mission-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+
+.mission-item .mission-title{
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.mission-item p{
+    font-size: 20px !important;
+}
+
+
+.blockquote-box{
+    padding-left: 25px;
+    border-left: 5px solid #01c9f5;
+    color: blue;
+}
+
+.mission-item q{
+    font-size: 20px;
+}
+
+.mission-item q::before{
+    font-family: FontAwesome;
+    content:  f10e;
+    font-size: 20px; 
+   
+
+    
+    
+}
+
+.mission-item q::after{
+    font-family: FontAwesome;
+    content:  f10e;
+    font-size: 25px;
+    
+}
+
+.mission-contant-img img{
+    float: left;
+    border-radius: 50%;
+}
+
+.contact-img span{
+    position: relative;
+    margin-left: 15px;
+    
+    
+}
+
+.contact-img .span1{
+    margin-bottom: 10px !important;
+}
+
+.section-offer{
+    margin-top: 70px;
+}
+
+.offer-contant p{
+    font-size: 20px;
+}
+
+.offer-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+   
+}
+
+
+
+.offer-item li {
+    list-style: none;
+    padding-left: 0;
+    float: left;
+    height: 139px;
+    margin-right: 10px;
+}
+
+.section-Projects {
+    margin-top: 150px;
+    background-color: #192031;
+  
+    color: white;
+    padding: 100px;
+}
+
+.contant-projects span{
+    color: #01C9F5;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
+.contant-projects h1{
+   
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
+.contant-projects p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.awards-items{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.awards-items .first-box{
+    padding-top: 100px;
+}
+
+.award-item span{
+    font-weight: bold;
+    color: #01C9F5;
+    font-size: 18px;
+}
+
+.award-item h2{
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.award-item p{
+   
+    color: gray;
+    font-size: 18px;
+}
+
+.award-card{
+    
+    background-color: #F7F6F9;
+    padding: 40px 20px 20px;
+    
+
+}
+
+.award-card h3{
+    
+    color: black;
+    
+
+}
+
+
+.award-card p{
+    
+    color: gray;
+    margin: 40px 0;
+    
+
+}
+
+.award-card h1{
+    
+    color: #01C9F5;
+    
+
+}
+
+.section-creative{
+    margin-top: 120px;
+}
+
+
+.creative-items{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 10px;
+
+}
+
+.creative-item h4{
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.creative-item p{
+    margin: 40px 0;
+    color: gray;
+}
+
+
+.section-Competitive{
+    margin-top: 100px;
+    background-color: #f3f3f6;
+    padding: 5%;
+}
+
+.Competitive-items{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 10px;
+}
+
+
+.Competitive-item-list{
+    display: grid;
+    grid-template-rows: 2, 1fr;
+    grid-gap: 5px;
+}
+
+.Competitive-list li{
+    position: relative;
+    list-style: none;
+    background-color: white;
+    width: 8%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 15%;
+    margin-right: 6%;
+
+
+}
+
+.Competitive-list li i{
+    position: absolute;
+    text-align: center;
+    left: 13%;
+    top: 14%;
+
+}
+
+.Competitive-item h3{
+    margin: 0 0 5% 0;
+}
+
+.Competitive-item p{
+   color: gray;
+}
+
+.section-get{
+    background: linear-gradient(270deg, #01C9F5 0%, #028dfc 100.44%);
+    height: 177px;
+}
+
+.get-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.get-item .blockquote-box  {
+   border-left: 5px solid white !important;
+}
+
+.get-item figure{
+    color: white;
+}
+
+.get-item figure h2{
+    
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
+.get-item figure p{
+    font-size: 15px;
+    
+}
+
+
+.get-item .btn-get{
+   background-color: white;
+   margin-top: 12%;
+   margin-right: 50px;
+   transition: all 0.5s;
+
+}
+
+.get-item button:hover{
+    color: #ffffff;
+    background-color: #0066FF;
+    border-color: #0066FF;
+}
+
+
+.section-Features{
+    margin-top: 160px;
+}
+
+.Technologies-Features{
+    padding: 80px;
+    margin-top: 160px;
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+.Features-items{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+}
+
+.Technologies-items{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+}
+
+.Features-boxs-item{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap: 5px;
+   
+}
+
+.Features-item .box li{
+    list-style: none;
+    margin-bottom: 31px;
+    list-style: none;
+    margin-left: 50px;
+    
+  
+}
+
+.Features-contant h4{
+    color: #01C9F5;
+}
+
+.Features-contant h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.section-Features .Features-contant{
+    padding: 30px;
+}
+
+.Features-item .box span{
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: gray;
+    margin-left: 50px;
+}
+
+.Features-item .box span{
+    margin-top: 5px;
+}
+
+.section-Number{
+    
+    background-color:  #192031;
+    padding: 120px;
+    color: gray;
+}
+
+.numper-items{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 5px;
+    justify-self: center;
+}
+
+
+.numper-item h1{
+    color: #01C9F5;
+}
+
+.team-items{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    
+}
+
+.section-team{
+    margin-top: 120px;
+}
+
+.team-item h3{
+   font-size: 24px;
+}
+
+
+.img-hover-zoom{
+    overflow: hidden;
+    
+}
+
+
+
+
+.img-hover-zoom img{
+    transition: .5s;
+}
+
+.img-hover-zoom:hover img{
+    transform: scale(1.3);
+    
+}
+
+.card-item{
+    width: 418px;
+    height: 250px;
+    
+    margin: 0 auto;
+    padding: 5%;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.carousel-item .mission-contant-img img{
+    float: none !important;
+    text-align: center;
+}
+
+
+.cards-section  h1{
+    
+    font-family: "Merriweather", "Times New Roman", Times, serif;;
+}
+
+ .mission-contant-img span{
+   text-transform: capitalize;
+}
+
+
+.section-pricing{
+    margin-top: 150px;
+}
+.pricing-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+
+
+
+.free-package{
+    position: relative;
+    max-width: 350px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(41, 48, 67, 0.08);
+
+}
+
+
+.free-package span:first-child{
+   
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: #293043;
+    font-size: 24px;
+    
+}
+
+
+.free-package h1{
+   
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #01C9F5;
+}
+
+
+.free-package p{
+   
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    color: gray;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    
+}
+
+.free-package .list-pricing{
+    
+    margin-left: 50px;
+ 
+}
+
+.list-pricing li i{
+    padding: 7px;
+}
+
+.list-pricing li {
+    font-size: 22px;
+    color: rgba(128, 128, 128, 0.479);
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+
+.free-package .btn-pricing{
+    margin-top: 20px;
+   /* margin-left: 120px;*/
+    text-align: center;
+   
+}
+
+.btn-pricing button{
+     text-transform: capitalize;
+     font-weight: bold;
+}
+
+.free-package li del {
+    margin-left: 36px;
+    text-transform: capitalize;
+}
+
+
+.second-bg .pricing-content{
+    background: linear-gradient(270deg, #01C9F5 0%, #028dfc 100.44%);
+    max-width:350px ;
+    color: white;
+    height: 240px;
+}
+
+ .second-bg span{
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+}
+
+.second-bg h1{
+     
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.second-bg p{
+   
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    color: white;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    
+}
+
+.pricing-content mark {
+    color: blue !important;
+
+}
+
+.pricing-content .save{
+    max-width: 120px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #e926b2;
+    padding: 5px 5px;
+    color: white;
+}
+
+
+.free-package-cha{
+    height: 350px;
+}
+
+.aq-section{
+    margin-top: 120px;
+}
+
+
+.aq-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 0 50px;
+}
+.aq-section span{
+    font-weight: 700;
+    color: #01C9F5;
+}
+.aq-section .aq-title{
+    margin: 30px 0;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: #293043;
+}
+
+
+.aq-item h3 {
+    
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.aq-item h3::before{
+    
+    font-family: FontAwesome;
+    content: "\f138";
+    width: 20px;
+    height: 40px;
+    padding-right: 10px;
+    color: #0066FF;
+}
+
+.aq-item li {
+  
+    padding: 5px 0;
+    color: gray;
+    font-size: 18px;
+    
+    
+}
+
+.aq-item p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 25px;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.contact-items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contact-item:last-child{
+    padding: 80px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 14px 36px rgba(41, 48, 67, 0.09);
+}
+
+.contact-item:first-child{
+    padding: 80px 0px;
+    
+}
+
+.contact-item span{
+    color: #01C9F5;
+    font-weight: 700;
+    
+}
+
+.contact-item h2{
+    margin: 30px 0 !important;
+    font-size: 36px;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: #293043;
+    
+}
+
+.contact-item p{
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    color: #696E7B;
+    
+}
+
+
+footer{
+    margin-top: 120px;
+    background-color:#192031 ;
+    padding: 10% 0 2% 0;
+}
+
+
+.footer-section span{
+    color: #01C9F5;
+    font-weight: 700;
+}
+
+
+.footer-contant h1 {
+   
+    
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-weight: 700;
+    padding: 35px 0 ;
+    
+}
+
+
+.footer-contant p {
+   
+    
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 80px;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    
+}
+
+footer button{
+    text-transform: capitalize;
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    margin-top: 100px !important;
+}
+
+
+
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    padding-left: 8px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+
+.nav-footer li {
+    margin-right: 30px;
+  
+}
+
+.nav-footer li a{
+    color: rgb(148, 151, 161);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-footer li a:hover{
+     color: #01C9F5;
+}
+
+footer li{
+    display: inline-block;
+    
+}
+
+footer li i {
+    color: rgb(148, 151, 161);
+    transition: 0.3s;
+    
+}
+
+
+footer li i:hover {
+    color: #ffffff;
+    
+}
+
+.footer-title p{
+    color: rgb(148, 151, 161);
+    font-size: 14px;
+}
+
+
+
+/* mobail styling  ======================*/
+
+@media only screen and (max-width: 736px){
+    .home-info h1{
+        font-size: 20px;
+    }
+
+    
+    .home-info p{
+        width: 303px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+        
+    .bg-img{
+        position: absolute;
+        display: block;
+        left: 0px;
+        bottom: -60px;
+    }
+
+    .bg-img img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+
+    .about-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+
+    .about-item img{
+        width: 100%;
+    }
+
+    
+
+    .mission-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        overflow: hidden;
+    }
+
+    
+    .mission-item q{
+        font-size: 16px;
+    }
+    .mission-img img{
+       margin-top: 30px;
+       width: 100%;
+    }
+
+    .section-Projects {
+        padding: 100px 50px;
+    }
+
+    
+    .contant-projects h1{
+        font-size: 17px;
+        line-height: 1.4;
+        font-family: inherit;
+    }
+
+    .contant-projects p {
+        color: gray;
+        font-size: 12px;
+        margin-bottom: 30px;
+        font-weight: bold;  
+    }
+
+    .offer-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+
+
+
+
+    .awards-items{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 10px;
+    }
+
+
+    .creative-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+
+    }
+
+    .creative-item img{
+        width: 100%;
+    }
+
+    .Competitive-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+
+    .get-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    
+    .get-item .btn-get{
+        background-color: white; 
+        border-color: #0066FF;
+        margin-right: 100px;
+    }
+    
+    .get-item button:hover{
+        color:  white;
+        border-color: #ffffff;
+        background-color: #0066FF;
+    }
+    
+
+    .Features-items{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 5px;
+        
+    }
+
+    .Technologies-items{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 5px;
+        text-align: center;
+    }
+
+    .Features-boxs-item{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-gap: 31px;
+        margin-bottom: 60px;
+       
+    }
+
+
+    .numper-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        justify-self: center;
+        
+    }
+
+    .numper-items h2{
+        font-size: 1rem !important;
+    }
+
+    
+
+    .team-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+    }
+
+    .team-contant h3{
+        font-size: 18px;
+    }
+
+
+    .card-item {
+        width: 345px;
+        height: 250px;
+        
+    }
+
+    .cards-contant h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .pricing-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+                
+    }
+
+    .section-pricing{
+        margin-top: 150px;
+    }
+
+    .aq-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        padding: 0 50px;
+    }
+
+   
+
+    .contact-items {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .contact-item:last-child {
+        padding: 30px 30px;  
+     }
+
+    .footer-contant p {
+        font-size: 20px;
+      
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        font-size: 15px;
+    }
+    
+    footer li {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .footer-title p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 50px; }
+}
+
+
+
+/* tablet and ipad design ================================*/
+
+@media only screen and (max-width: 991px ) and (min-width: 601px){
+     
+    
+    .bg-img{
+      
+        left: 0px;
+        bottom: -151px;
+    }
+
+
+
+    .about-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+
+    
+    .creative-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+
+    }
+
+    
+.team-items{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    text-align: center;
+    
+}
+
+
+
+.mission-items img{
+   max-width: 80%;
+   margin-left: 50px;
+}
+
+.mission-contant-img img{
+   margin: 0 !important;
+}
+
+.carousel-indicators {  
+    bottom: -40px !important; 
+}
+
+.Features-boxs-item {
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 15px;
+  }
+
+  .Features-contant h2 {
+    
+    font-size: 24px;
+    
+}
+
+footer li {
+  
+    margin-bottom: 10px;
+}
+
+
+}
+
+
+/*   ipad pro  design ================================*/
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+    .bg-img {
+        
+        left: 110px;
+        bottom: -186px;
+    }
+
+    .team-items {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        text-align: center;
+    }
+
+    
+.carousel-indicators {  
+    bottom: -40px !important; 
+}
+}
