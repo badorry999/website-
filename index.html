@@ -800,18 +800,22 @@
         <h2>Get in touch with us</h2>
         <p>If you have a question or a testimonial for us, feel free <br> to contact us using the form on the right.</p>
       </div>
-
+      
       <div class="contact-item">
       <div class="form-row">
-      <div class="col">
-      <input type="name" class="form-control mb-2" placeholder="your name" >
-      </div>
-      <div class="col">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      </div>
-      <textarea class="form-control mb-3 ml-1" id="exampleFormControlTextarea1" placeholder="your massage" rows="3"></textarea>
-      
-      <button type="submit" class="btn btn-primary">sent</button>
+      <form>
+
+        <div class="col" name="contact" method="POST" data-netlify="true">
+          <input type="name" class="form-control mb-2" placeholder="your name" >
+          </div>
+          <div class="col">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <textarea class="form-control mb-3 ml-1" id="exampleFormControlTextarea1" placeholder="your massage" rows="3"></textarea>
+          
+          <button type="submit" class="btn btn-primary">sent</button>
+
+      </form>
 
      </div>
       </div>
